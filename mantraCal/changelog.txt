@@ -1,0 +1,45 @@
+# 2024-08-08
+# Version 1.0.1 - New Features
+
+## Features:
+
+	•	Featured Image Support:
+	•	Added support for featured images for events. You can now add, edit, and display featured images for each event.
+	•	English and German language files added
+    •	End Date for Events:
+	•	Added support for end dates in events. You can now specify an end date for each event, allowing for more detailed event duration information.
+
+
+# 2024-08-08
+# Version 1.0.0 - Initial Release
+
+## Features
+
+	•	Event Management:
+	•	Add, edit, and delete events in the WordPress backend.
+	•	Support for custom fields: title, date, time, location, and description.
+	•	Recurring Events:
+	•	Support for recurring events (daily, weekly, monthly).
+	•	Calendar View:
+	•	Dynamic monthly view to display all events.
+	•	Shortcode [mantracal_month_view] to integrate the monthly view into posts and pages.
+	•	Event List:
+	•	Shortcode [mantracal_events number="X"] to display a list of events, where X defines the number of events to show.
+	•	Design and Customization:
+	•	Compatibility with popular WordPress themes.
+	•	Basic customization options such as colors and fonts.
+	•	Mobile Responsive Design:
+	•	Ensures the calendar works well on mobile devices and adapts to various screen sizes.
+
+## Technical Details
+
+	•	Activation and Deactivation Hooks:
+	•	Automatic flushing of rewrite rules on plugin activation and deactivation.
+	•	Load Textdomain for Translations:
+	•	Support for multilingual translations by loading the textdomain.
+	•	Enqueue Scripts and Styles:
+	•	Inclusion of JavaScript and CSS files to support calendar functionality and design.
+
+## Bugfixes
+
+	•	No known issues in this version.

@@ -1,0 +1,10 @@
+.mantracal-calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mantracal-calendar th, .mantracal-calendar td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
